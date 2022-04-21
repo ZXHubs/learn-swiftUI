@@ -20,10 +20,12 @@ struct ContentView: View {
                 Text("SwiftUI for iOS 15")
                     .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                     .fontWeight(.bold)
+                    .foregroundStyle(.linearGradient(colors: [.red, .blue.opacity(0.5)], startPoint: .topLeading, endPoint: .topTrailing))
                 Text("20 section - 3 hours".uppercased())
                     .font(.footnote)
                     .fontWeight(.semibold)
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(.secondary)
+                    // foregroundStyle和foregroundColor的区别是：可以用更多选择比如渐变
                 Text("Build an iOS app for iOS 15 with custom layouts, animations and ...")
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
@@ -34,16 +36,31 @@ struct ContentView: View {
             .padding(/*@START_MENU_TOKEN@*/.all, 20.0/*@END_MENU_TOKEN@*/)
             .padding(.vertical, 20)
             .frame(height: 350.0)
-            .background(Color("Background"))
+            .background(.ultraThinMaterial)
             .cornerRadius(/*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
             .shadow(color: Color("Shadow").opacity(0.3), radius: 10, x: 0, y: 10)
             .padding(.horizontal, 20)
+            .background(
+                Image("Blob 1")
+                    .offset(x: 0, y: -100)
+            )
+            .overlay(
+                Image("Illustration 5")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 230)
+                    .offset(x: 32, y: -80)
+            )
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
     }
 }
