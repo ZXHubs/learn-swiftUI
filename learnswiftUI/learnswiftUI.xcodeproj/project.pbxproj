@@ -11,6 +11,7 @@
 		315B5891280BDBF9009771D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B5890280BDBF9009771D6 /* ContentView.swift */; };
 		315B5893280BDBFA009771D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315B5892280BDBFA009771D6 /* Assets.xcassets */; };
 		315B5896280BDBFA009771D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315B5895280BDBFA009771D6 /* Preview Assets.xcassets */; };
+		31E38CBA28140EA8004CD963 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E38CB928140EA8004CD963 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		315B5890280BDBF9009771D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		315B5892280BDBFA009771D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315B5895280BDBFA009771D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31E38CB928140EA8004CD963 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				315B588E280BDBF9009771D6 /* learnswiftUIApp.swift */,
 				315B5890280BDBF9009771D6 /* ContentView.swift */,
+				31E38CB928140EA8004CD963 /* Styles.swift */,
 				315B5892280BDBFA009771D6 /* Assets.xcassets */,
 				315B5894280BDBFA009771D6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E38CBA28140EA8004CD963 /* Styles.swift in Sources */,
 				315B5891280BDBF9009771D6 /* ContentView.swift in Sources */,
 				315B588F280BDBF9009771D6 /* learnswiftUIApp.swift in Sources */,
 			);
