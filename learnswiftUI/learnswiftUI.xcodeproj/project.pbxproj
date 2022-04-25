@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312C9F0E2816C4300080C8EC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C9F0D2816C4300080C8EC /* AccountView.swift */; };
 		315B588F280BDBF9009771D6 /* learnswiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B588E280BDBF9009771D6 /* learnswiftUIApp.swift */; };
 		315B5891280BDBF9009771D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B5890280BDBF9009771D6 /* ContentView.swift */; };
 		315B5893280BDBFA009771D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315B5892280BDBFA009771D6 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312C9F0D2816C4300080C8EC /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		315B588B280BDBF9009771D6 /* learnswiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnswiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315B588E280BDBF9009771D6 /* learnswiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnswiftUIApp.swift; sourceTree = "<group>"; };
 		315B5890280BDBF9009771D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				315B588E280BDBF9009771D6 /* learnswiftUIApp.swift */,
 				315B5890280BDBF9009771D6 /* ContentView.swift */,
+				312C9F0D2816C4300080C8EC /* AccountView.swift */,
 				31E38CB928140EA8004CD963 /* Styles.swift */,
 				315B5892280BDBFA009771D6 /* Assets.xcassets */,
 				315B5894280BDBFA009771D6 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312C9F0E2816C4300080C8EC /* AccountView.swift in Sources */,
 				31E38CBA28140EA8004CD963 /* Styles.swift in Sources */,
 				315B5891280BDBF9009771D6 /* ContentView.swift in Sources */,
 				315B588F280BDBF9009771D6 /* learnswiftUIApp.swift in Sources */,
